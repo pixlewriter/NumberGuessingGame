@@ -2,11 +2,12 @@
 This repository will hold a simple number guessing game in many different languages.
 
 Goal: The Plyaer or Computer has to guess the correct number (picked by the opponent) in 6 guesses.
+
 Does Player or Computer Guess the number 
    1. If Player
        1. Computer picks a random number
        2. Computer asks player to pick a number
-       C. Player picks a number
+       3. Player picks a number
            1. If correct
                1. Display Win Screen
                2. Ask to Play Again
@@ -31,13 +32,17 @@ Does Player or Computer Guess the number
            1. If second guess
                1. Add 25 if higher, subtract 25 if lower
            2. If third guess
-               1. Add 13 if higher, subtract 13 if lower
+               1. Pick a random number, 12 or 13
+               2. Add random if higher, subtract random if lower
            3. If fourth guess
-               1. Add 5 if higher, subtract 5 if lower
+               1. Pick a random number, 6 or 7
+               2. Add random if higher, subtract random if lower
            4. If fifth guess
-               1. Add 3 if higher, subtract 3 if lower
+               1. Pick a random number, 3 or 4
+               2. Add random if higher, subtract random if lower
        3. Player inputs higher, lower, or equal
            1. If equal game win
            2. If higher or lower, and next guess is number 6, game loss. 
-       4. Repeat Step 2.2 and 2.3 untill game win or loss.
+       4. Repeat Step 2.ii and 2.iii untill game win or loss.
        5. Ask to play again. 
+
