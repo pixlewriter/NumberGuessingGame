@@ -22,7 +22,7 @@ Does Player or Computer Guess the number
                        1. If yes
                            1. Play Again
                        2. If no
-                           2. End Game
+                           1. End Game
                2. If not 6th Guess
                    1. Say lower or higher
                    2. Ask player to pick a new number
